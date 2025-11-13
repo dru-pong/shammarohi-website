@@ -44,6 +44,16 @@ body {
     outline: none;
   }
   
+  .logo img {
+    height: 60px;
+    width: auto;
+  }
+
+  .hero-logo {
+    width: 300px;
+    height: auto;
+  }
+  
   .full-screen-hero {
     height: 100vh;
     background: url('../images/construction-site.jpg') center/cover no-repeat;
@@ -185,6 +195,10 @@ body {
     .contact-form {
       padding: 0 1rem;
     }
+
+    .logo img {
+      height: 50px;
+    }
   }
   
   @media (max-width: 480px) {
@@ -195,5 +209,9 @@ body {
   
     header {
       padding: 1rem;
+    }
+
+    .logo img {
+      height: 40px;
     }
   }
